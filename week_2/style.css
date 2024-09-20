@@ -1,0 +1,78 @@
+
+.vertical_text{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.first{
+    display: flex;
+    background-color: blanchedalmond;
+}
+.side-2{
+    background-color: rgba(243, 158, 118, 0.849);
+}
+.List-Item ul{
+    display: flex;
+}
+.List-Item ul li{
+  padding: 18px;
+} 
+.S{
+    color: orangered;
+}
+.header{
+    font-size: xx-large;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.menu-list{
+    margin-top: 15px;
+}
+.side{
+  font-size: xx-large;
+  color: rgb(65, 65, 65);
+  font-family: 'Courier New', Courier, monospace;
+  background-color: blanchedalmond;
+}
+.intro{
+    padding-left: 56px;
+    padding-top: 15px;
+    font-size: x-large  ;
+}
+.description{
+    font-size: small;
+}
+.btn{
+    padding: 20px;
+}
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+a:hover{
+    background-color: orangered;
+    padding: 10px;
+}
+.btn{
+    background-color: orangered;
+}
+.page-2 h1,.page-3 h1{
+    text-align: center;
+}
+.page-2{
+    background-color: rgb(250, 230, 206);
+    margin-top: 5px;
+    padding-top: 50px;
+}
+.page-2 pre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+.page-3-footer{
+    display: flex;
+}
+.js,.react,.Nodejs,.MongoDB{
+    width: 25%;
+}
